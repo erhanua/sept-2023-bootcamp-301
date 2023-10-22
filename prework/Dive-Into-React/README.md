@@ -16,7 +16,7 @@ React elements are made into DOM elements through a process called "rendering". 
 
 ### 5-React is a User Interface ______.
 
-React is a User Interface library.
+React is a User Interface **library**.
 
 ### 6-Which direction does data flow in React?
 
@@ -24,4 +24,4 @@ Data flows in a unidirectional manner in React, from parent to child components.
 
 ### 7- Every component manages its own ____.
 
-Every component manages its own state.
+Every component manages its own **state**.
