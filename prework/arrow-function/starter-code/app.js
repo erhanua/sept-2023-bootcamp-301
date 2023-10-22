@@ -184,10 +184,10 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-### When joe.scope() is called, this refers to the joe object itself.
+#When joe.scope() is called, this refers to the joe object itself.
 //
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//? When joe.scopeArrow() is called, because it's an arrow function, this refers to the global context, usually the window object in browsers.
+ #When joe.scopeArrow() is called, because it's an arrow function, this refers to the global context, usually the window object in browsers.
 //
 // 3. Explain why "this" is different when an arrow function is used.
-//?Arrow functions don't have their own this. Instead, they inherit this from the surrounding scope where they were defined. This can be useful in some cases but can cause issues in others, like object methods or constructors.
+#Arrow functions don't have their own this. Instead, they inherit this from the surrounding scope where they were defined. This can be useful in some cases but can cause issues in others, like object methods or constructors.
