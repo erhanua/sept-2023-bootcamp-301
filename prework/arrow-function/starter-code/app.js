@@ -184,7 +184,7 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//? When joe.scope() is called, this refers to the joe object itself.
+### When joe.scope() is called, this refers to the joe object itself.
 //
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //? When joe.scopeArrow() is called, because it's an arrow function, this refers to the global context, usually the window object in browsers.
