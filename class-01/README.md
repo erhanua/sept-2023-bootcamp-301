@@ -30,3 +30,16 @@
 - **System maintenance and evolution** − Easy to change and update the implementation without affecting the rest of the system.
 
 - **Independent** − Independency and flexible connectivity of components. Independent development of components by different group in parallel. Productivity for the software development and future software development.
+
+
+
+### 1-What is “props” short for?
+**“Props”** is a special keyword in React, which stands for **properties** and is being used for **passing data from one component to another.**
+But the important part here is that data with props are being passed in a **uni-directional flow.** (one way from parent to child)
+
+### 2-How are props used in React?
+- Firstly, define an attribute and its value(data)
+- Then pass it to child component(s) by using Props
+- Finally, render the Props Data
+### 3-What is the flow of props?
+The flow of props in React is unidirectional, from parent to child. This means that data (props) can only be passed from a parent component down to its child components. Child components cannot send props back to their parent component. If a child component needs to communicate back to its parent, it typically does so through functions passed down as props from the parent. This unidirectional data flow ensures predictability and simplicity in the structure and data management of React applications.
